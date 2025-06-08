@@ -1,11 +1,10 @@
-/* Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-  
-  /* Umum */
+
   body {
     font-family: sans-serif;
     line-height: 1.6;
@@ -13,7 +12,7 @@
     background-color: #f7f7f7;
   }
   
-  /* HEADER */
+
   header {
     background-color: #0077cc;
     color: white;
@@ -38,8 +37,7 @@
   nav ul li .cart {
     font-size: 1.5rem;
   }
-  
-  /* KONTEN */
+
   main {
     margin-top: 2rem;
   }
@@ -68,15 +66,12 @@
     font-weight: bold;
   }
   
-  /* Kategori */
   #kategori ul {
     list-style: disc;
     margin-left: 1.5rem;
     margin-bottom: 2rem;
   }
-  
-  /* Footer */
-  footer {
+    footer {
     background-color: #333;
     color: white;
     padding: 1rem;
@@ -84,7 +79,6 @@
     margin-top: 2rem;
   }
   
-  /* RESPONSIF */
   @media (max-width: 768px) {
     nav ul {
       flex-direction: column;
@@ -115,7 +109,6 @@
   border-radius: 8px;
   margin-bottom: 0.5rem;
 }
-/* Tombol Produk */
 .produk-btn {
   margin-top: 0.8rem;
   display: flex;
